@@ -8,7 +8,7 @@ const Education: React.FC = () => {
   const isInView = useInView(sectionRef, { threshold: 0.1 });
 
   return (
-    <section ref={sectionRef} id="education" className="py-20 relative bg-[#12082a]">
+    <section ref={sectionRef} id="education" className="py-20 relative bg-[#12082a] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`text-center mb-16 transition-opacity duration-700 transform ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent inline-block">Education</h2>

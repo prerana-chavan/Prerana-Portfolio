@@ -11,7 +11,7 @@ import './styles/animations.css';
 
 function App() {
   return (
-    <div className="bg-gray-950 text-white">
+    <div className="bg-gray-950 text-white w-full overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />

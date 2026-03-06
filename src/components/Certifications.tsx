@@ -9,7 +9,7 @@ const Certifications: React.FC = () => {
     const technologies = ['Java', 'J2EE', 'Spring Boot', 'JPA', 'REST APIs', 'React.js', 'MySQL'];
 
     return (
-        <section ref={sectionRef} id="certifications" className="py-20 relative bg-[#0d1f35]">
+        <section ref={sectionRef} id="certifications" className="py-20 relative bg-[#0d1f35] overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
                 {/* Section Header */}
