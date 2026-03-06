@@ -113,10 +113,10 @@ const Navbar: React.FC = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="md:hidden z-50 flex items-center">
+            <div className="md:hidden z-50 flex items-center pr-1">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="text-white hover:text-cyan-400 transition flex items-center justify-center p-1"
+                className="text-white hover:text-cyan-400 transition flex items-center justify-center p-1 mr-1"
               >
                 {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
               </button>
