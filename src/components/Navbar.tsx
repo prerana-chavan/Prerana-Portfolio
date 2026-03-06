@@ -60,9 +60,9 @@ const Navbar: React.FC = () => {
               className="flex-shrink-0 cursor-pointer z-50"
               onClick={() => scrollToSection("home")}
             >
-              <h1 className="text-2xl font-bold text-white tracking-wide transition-all duration-300 hover:scale-105 group">
+              <h1 className="text-2xl font-bold text-white tracking-wide transition-all duration-300 hover:scale-105 group flex items-center">
                 <span className="group-hover:text-cyan-400 transition-colors duration-300">Prerana</span>
-                <span className="text-cyan-400 group-hover:text-purple-500 transition-colors duration-300">.</span>
+                <span className="text-cyan-400 group-hover:text-purple-500 transition-colors duration-300 leading-none">.</span>
               </h1>
             </div>
 
@@ -113,10 +113,10 @@ const Navbar: React.FC = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="md:hidden z-50">
+            <div className="md:hidden z-50 flex items-center">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="text-white hover:text-cyan-400 transition"
+                className="text-white hover:text-cyan-400 transition flex items-center justify-center p-1"
               >
                 {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
               </button>

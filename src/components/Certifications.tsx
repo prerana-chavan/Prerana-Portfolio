@@ -31,7 +31,7 @@ const Certifications: React.FC = () => {
                         <div className="h-1.5 w-full bg-gradient-to-r from-cyan-500 via-purple-500 to-cyan-500"></div>
 
                         {/* Background */}
-                        <div className="bg-gradient-to-br from-gray-900 via-gray-800/90 to-gray-900 p-8 md:p-10">
+                        <div className="bg-gradient-to-br from-gray-900 via-gray-800/90 to-gray-900 p-6 md:p-10">
 
                             {/* Top row: icon + issuer */}
                             <div className="flex items-start justify-between mb-8">

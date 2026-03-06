@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
     setIsSubmitting(true);
 
     // Create mailto link with form data
-    const mailtoLink = `mailto:preranac90@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:preranac1884@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
 
@@ -68,7 +68,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-white">Email</h4>
-                  <a href="mailto:preranac90@gmail.com" className="text-gray-300 hover:text-cyan-400 transition-colors">preranac90@gmail.com</a>
+                  <a href="mailto:preranac1884@gmail.com" className="text-gray-300 hover:text-cyan-400 transition-colors">preranac1884@gmail.com</a>
                 </div>
               </div>
 
@@ -113,7 +113,7 @@ const Contact: React.FC = () => {
                   <Linkedin className="text-white" />
                 </a>
                 <a
-                  href="mailto:preranac90@gmail.com"
+                  href="mailto:preranac1884@gmail.com"
                   className="glass p-4 rounded-lg hover:bg-cyan-600 transition-colors duration-300"
                 >
                   <Mail className="text-white" />
@@ -129,7 +129,7 @@ const Contact: React.FC = () => {
 
               {submitSuccess && (
                 <div className="bg-green-500/20 border border-green-500 rounded-lg p-4 mb-6">
-                  <p className="text-green-400 font-medium">Opening your email app... Your message will be sent to kawadeakshay93@gmail.com</p>
+                  <p className="text-green-400 font-medium">Opening your email app... Your message will be sent to preranac1884@gmail.com</p>
                 </div>
               )}
 
