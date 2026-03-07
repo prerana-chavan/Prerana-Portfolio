@@ -14,6 +14,9 @@
     <a href="https://github.com/prerana-chavan">
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge"/>
     </a>
+    <a href="https://prerana-portfolio-pi.vercel.app/">
+      <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel Badge"/>
+    </a>
   </p>
 </div>
 
@@ -22,6 +25,8 @@
 ## 🌟 Overview
 
 Welcome to my personal portfolio! This project is a modern, responsive, and high-performance showcase of my skills, experience, and projects. Built with **React**, **Vite**, and **Tailwind CSS**, it features a sleek design and smooth interactions.
+
+🔗 **Live Demo**: [https://prerana-portfolio-pi.vercel.app/](https://prerana-portfolio-pi.vercel.app/)
 
 ## ✨ Key Features
 
