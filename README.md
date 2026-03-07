@@ -43,7 +43,7 @@ Welcome to my personal portfolio! This project is a modern, responsive, and high
   <img src="https://skillicons.dev/icons?i=react,vite,typescript,html,css,js,tailwind" />
 </div>
 
-### Backend & Database (Relevant Skills)
+### Backend & Database 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,java,spring,mysql" />
 </div>
